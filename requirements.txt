@@ -1,0 +1,5 @@
+# MCP SDK (FastMCP)
+fastmcp>=2.0.0
+
+# XMind 文件解析
+xmindparser>=1.0.9

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "xmind-to-markdown": {
+      "command": "python",
+      "args": ["/Users/shansong/comate-zulu-demo/XmindConvertMD/server.py"],
+      "env": {}
+    }
+  }
+}
