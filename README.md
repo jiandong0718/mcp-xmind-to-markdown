@@ -182,7 +182,7 @@ pytest
 ## 📮 联系方式
 
 - GitHub Issues: [提交问题](https://github.com/yourusername/xmind-to-markdown-mcp/issues)
-- Email: your.email@example.com
+- Email: jiandong.yh@gmail.com
 
 ## 🙏 致谢
 
