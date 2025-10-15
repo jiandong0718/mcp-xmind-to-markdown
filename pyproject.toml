@@ -40,10 +40,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/xmind-to-markdown-mcp"
-Repository = "https://github.com/yourusername/xmind-to-markdown-mcp"
-Issues = "https://github.com/yourusername/xmind-to-markdown-mcp/issues"
-Documentation = "https://github.com/yourusername/xmind-to-markdown-mcp#readme"
+Homepage = "https://github.com/jiandong0718/mcp-xmind-to-markdown"
+Repository = "https://github.com/jiandong0718/mcp-xmind-to-markdown"
+Issues = "https://github.com/jiandong0718/mcp-xmind-to-markdown/issues"
+Documentation = "https://github.com/jiandong0718/mcp-xmind-to-markdown#readme"
 
 [project.scripts]
 xmind-to-markdown-mcp = "xmind_to_markdown:main"
