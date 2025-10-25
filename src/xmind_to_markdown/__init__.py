@@ -3,7 +3,12 @@ XMind to Markdown MCP Server
 将 XMind 思维导图文件转换为 Markdown 格式的 MCP 服务
 """
 
-from .server import app, convert_xmind_to_markdown, read_xmind_structure
+from .server import (
+    app,
+    convert_xmind_to_markdown,
+    read_xmind_structure,
+    main as _server_main,
+)
 from .xmind_parser import XMindParser
 from .md_converter import MarkdownConverter
 
@@ -19,7 +24,11 @@ __all__ = [
     "MarkdownConverter",
 ]
 
-def main():
-    """MCP Server 入口点"""
+def main() -> None:
+    """MCP Server 入口点."""
     import asyncio
-    asyncio.run(app.run())
+
+    asyncio.run(_server_main())
+
+
+__all__.append("main")
